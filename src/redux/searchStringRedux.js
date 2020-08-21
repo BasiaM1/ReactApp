@@ -13,7 +13,7 @@ export const CHANGE = createActionName('CHANGE');
 
 // action creators
 export const createAction_changeSearchString = (payload) => ({
-  payload: { ...payload },
+  payload,
   type: CHANGE,
 });
 
