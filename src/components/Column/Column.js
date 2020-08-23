@@ -10,19 +10,19 @@ class Column extends React.Component {
   static propTypes = {
     title: PropTypes.string,
     cards: PropTypes.array,
-    name: PropTypes.node,
+    icon: PropTypes.node,
     addCard: PropTypes.func,
   };
   static defaultProps = {
     icon: settings.defaultColumnIcon,
   };
   render() {
-    const { title, name, cards, addCard } = this.props;
+    const { title, icon, cards, addCard } = this.props;
     return (
       <section className={styles.component}>
         <h3 className={styles.title}>
           <span className={styles.icon}>
-            <Icon name={name} />
+            <Icon name={icon} />
           </span>
           {title}
         </h3>
