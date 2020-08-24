@@ -90,8 +90,20 @@ const lists = [
   {
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
-    description: 'Interesting things I want to check out!',
+    description: 'Interesting things - to-do',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Work to do <sup>soon!</sup>',
+    description: 'Work - to-do',
+    image: 'https://i.postimg.cc/rsxnq0M8/work.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Planning <sup>soon!</sup>',
+    description: 'Plans - to-do',
+    image: 'https://i.postimg.cc/fT1pnssW/plans.jpg',
   },
 ];
 
