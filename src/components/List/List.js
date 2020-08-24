@@ -10,7 +10,7 @@ import Container from '../Container/Container';
 class List extends React.Component {
   static propTypes = {
     title: PropTypes.node.isRequired,
-    img: PropTypes.string,
+    image: PropTypes.string,
     description: PropTypes.node,
     columns: PropTypes.array,
     addColumn: PropTypes.func,
@@ -20,11 +20,11 @@ class List extends React.Component {
   };
 
   render() {
-    const { title, img, description, columns, addColumn } = this.props;
+    const { title, image, description, columns, addColumn } = this.props;
     return (
       <Container>
         <section className={styles.component}>
-          <Hero titleText={title} imgSrc={img} />
+          <Hero titleText={title} imgSrc={image} />
           <div className={styles.description}>
             {ReactHtmlParser(description)}
           </div>

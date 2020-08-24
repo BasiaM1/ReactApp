@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import styles from './Container.scss';
 
 const Container = (props) => (
-  <div className={styles.component}>{props.childern}</div>
+  <div className={styles.component}>{props.children}</div>
 );
 Container.propTypes = {
-  childern: PropTypes.node,
+  children: PropTypes.node,
 };
 export default Container;
